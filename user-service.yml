@@ -5,8 +5,9 @@ spring:
     username: admin
     password: admin
 
-token:
-  key: my_token_secret_key
+jwt:
+  token:
+    key: my_token_secret_key
 
 default:
   message: user-service 에서 global profiles 에서 사용할 설정 정보들

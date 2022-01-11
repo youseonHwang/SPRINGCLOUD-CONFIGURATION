@@ -7,7 +7,7 @@ spring:
 
 jwt:
   token:
-    key: my_token_secret_key
+    key: "{cipher}ebc680ac6bbf42af7a4f565519d30d3bc893ffa6f62fd95d5d3cafbb69e8b3184e8263bb6c395813dd2b7e5ab89941d1"
 
 default:
   message: user-service 에서 global profiles 에서 사용할 설정 정보들
